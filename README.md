@@ -74,7 +74,7 @@ $PQTMCFGSVIN,W,2,0,0,x,y,z\*3B # set base location in XYZ coords\
 $PQTMSAVEPAR\*5A # save PQTM params to flash\
 **manually power cycle module**
 
-In the sketch NTRIP_DUOCaster_ESP_NOW_V035 the program generates itself the commands after the first power cycle so you need to configure just the first three commands using QGNSS program.\
+In the sketch NTRIP_DUOCaster_ESP_NOW_V038 the program generates itself the commands after the first power cycle so you need to configure just the first three commands using QGNSS program.\
 The sketch has some nice features besides being able to drive two CORS stations.\
 You can still type commands in the serial monitor as if you were in the QGNSS program eg $PAIR432,1\*22 would work.\
 The serial monitor also lists the RTCM message numbers that are being sent and you can see also the NMEA messages.\
