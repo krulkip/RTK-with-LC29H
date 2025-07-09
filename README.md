@@ -81,6 +81,14 @@ The serial monitor also lists the RTCM message numbers that are being sent and y
 It also has very clear messages about what is being sent where and you can follow the connection attempts succeed or fail with a reason line.\
 Finally it also sends the RTCM data via ESP-NOW to your rover. Besides wifi this is another way to transmit correction data.\
 We did'nt mention ESP-NOW yet in the rover story that is something for later.\
+One issue is that you need to tell the base station where it is so that it can calculate the correction messages.\
+There are several ways of doing that:
+1. Use the built in survey mode. I have not managed to get this to work. It takes several hours to get an acurate one.\
+2. Use an external NTRIP CORS station and get a RTK fix and use that position as the correct one.\
+This is the method i have used.
+3. PPP which is to save a relatively long period of positions (several hours) convert them to Rinex and send it to an external location where they will calculate the exact position. I intend to try this one day but so far have not.\
+You need to create ECEF poition data and use that in the $PQTMCFGSVIN,W,2,0,0,x,y,z\*3B # set base location in XYZ coords\ command to set the data.\
+In the sketch the X, Y and Z data is stored in the secret.h file. There you will also find the SSID and password and in addition the NTRIP host details for both the hosts you want to have.\
 
 My next step is to use the ESP-NOW correction data rather than the wifi based method.\
 I also intend to use e220 LORA methodology to transmit the data.
