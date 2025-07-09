@@ -66,7 +66,7 @@ You need to configure your LC29HEA as a base station and again RTKlibexplorer wa
 $PQTMRESTOREPAR\*13 # restore PQTM params to default and reset\
 $PQTMCFGRCVRMODE,W,2\*29 # set receiver to base mode\
 $PQTMSAVEPAR\*5A # save PQTM params to flash\
-**manually power cycle module**
+**manually power cycle module**\
 $PAIR432,1\*22 # output RTCM3 MSM7 messages\
 $PAIR434,1\*24 # output RTCM3 antenna position (1005)\
 $PAIR062,0,01\*0F # Enable NMEA GGA message\
