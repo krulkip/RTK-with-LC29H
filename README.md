@@ -94,6 +94,8 @@ You also need to update one library You can find the library here: NtripClient b
 My next step is to use the ESP-NOW correction data rather than the wifi based method.\
 I also intend to use e220 LORA methodology to transmit the data.
 
+https://www.quectel.com/download/quectel_lc29h_serieslc79hal_gnss_protocol_specification_v1-4/
+
 ![Schematic](RTKFix.jpg?raw=true "RTKFix")
 ![Schematic](centipede.jpg?raw=true "centipede")
 ![Schematic](LC29HEA.jpg?raw=true "LC29HEA")
