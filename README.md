@@ -95,6 +95,7 @@ My next step is to use the ESP-NOW correction data rather than the wifi based me
 I also intend to use e220 LORA methodology to transmit the data.
 
 https://www.quectel.com/download/quectel_lc29h_serieslc79hal_gnss_protocol_specification_v1-4/
+https://rtklibexplorer.wordpress.com/2024/05/06/configuring-the-quectel-lc29hea-receiver-for-real-time-rtk-solutions/
 
 ![Schematic](RTKFix.jpg?raw=true "RTKFix")
 ![Schematic](centipede.jpg?raw=true "centipede")
