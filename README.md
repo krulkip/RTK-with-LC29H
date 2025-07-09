@@ -104,4 +104,4 @@ https://rtklibexplorer.wordpress.com/2024/05/06/configuring-the-quectel-lc29hea-
 
 SW MAPS NTRIP                  |  BT SW MAPS               | SW MAPS
 :-----------------------------:|:-------------------------:|------------------------
-![centipede](centipede.jpg)    |![BT_SW_Maps](BT-SW_Maps.jpg)|![SW_Maps](SW_Maps.jpg)
+![NTRIP_SW_Maps](NTRIP_SW_Maps.jpg)    |![BT_SW_Maps](BT_SW_Maps.jpg)|![SW_Maps](SW_Maps.jpg)
