@@ -101,3 +101,7 @@ https://rtklibexplorer.wordpress.com/2024/05/06/configuring-the-quectel-lc29hea-
 ![Schematic](RTKFix.jpg?raw=true "RTKFix")
 ![Schematic](centipede.jpg?raw=true "centipede")
 ![Schematic](LC29HEA.jpg?raw=true "LC29HEA")
+
+SW MAPS NTRIP                  |  BT SW MAPS               | SW MAPS
+:-----------------------------:|:-------------------------:|------------------------
+![centipede](centipede.jpg)    |![BT_SW_Maps](BT-SW_Maps.jpg)|![SW_Maps](SW_Maps.jpg)
