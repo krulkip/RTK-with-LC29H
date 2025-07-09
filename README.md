@@ -89,6 +89,7 @@ This is the method i have used.
 3. PPP which is to save a relatively long period of positions (several hours) convert them to Rinex and send it to an external location where they will calculate the exact position. I intend to try this one day but so far have not.\
 You need to create ECEF poition data and use that in the $PQTMCFGSVIN,W,2,0,0,x,y,z\*3B # set base location in XYZ coords\ command to set the data.\
 In the sketch the X, Y and Z data is stored in the secret.h file. There you will also find the SSID and password and in addition the NTRIP host details for both the hosts you want to have.\
+You also need to update one library You can find the library here: NtripClient by GLAY-AK2. The updated version is in this repository.\
 
 My next step is to use the ESP-NOW correction data rather than the wifi based method.\
 I also intend to use e220 LORA methodology to transmit the data.
