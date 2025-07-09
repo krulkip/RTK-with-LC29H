@@ -72,7 +72,7 @@ $PAIR434,1\*24 # output RTCM3 antenna position (1005)\
 $PAIR062,0,01\*0F # Enable NMEA GGA message\
 $PQTMCFGSVIN,W,2,0,0,x,y,z\*3B # set base location in XYZ coords\
 $PQTMSAVEPAR\*5A # save PQTM params to flash\
-### manually power cycle module\
+**manually power cycle module**
 
 In the sketch NTRIP_DUOCaster_ESP_NOW_V035 the program generates itself the commands after the first power cycle so you need to configure just the first three commands using QGNSS program.\
 The sketch has some nice features besides being able to drive two CORS stations.\
