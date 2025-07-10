@@ -66,13 +66,6 @@ bool NTRIPServer::connectToMountpointDirect(const char* host, int port, const ch
        request += "Authorization: Basic " + encoded + "\r\n";
        //request += "Ntrip-Version: Ntrip/2.0\r\n";
        request += "\r\n";  // <-- must end with CRLF CRLF  
-
-        //request += "POST /DulyImmenseWarthog HTTP/1.1\r\n";
-        //request += "Host: servers.onocoy.com\r\n";
-        //request += "User-Agent: NTRIP ESP32\r\n";
-        //request += "Authorization: Basic RHVseUltbWVuc2VXYXJ0aG9nOlJUS3Rlc3QzNA==\r\n";
-        //request += "Ntrip-Version: Ntrip/2.0\r\n";
-        //request += "\r\n";
     }
 
     Serial.printf("Mountpoint: %s at %s:%d\n", mountpoint, host, port);
